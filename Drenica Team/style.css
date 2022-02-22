@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+*
+
+{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+
+scroll-behavior: smooth;
+
+}
+
+ 
+
+p
+
+{
+
+    font-weight: 300;
+
+    color:black;
+
+}
+
+ 
+
+.banner
+
+{
+
+    position: relative;
+
+    width: 100%;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background-image: url(team.jpg);  
+    background-size: cover;
+
+ 
+
+}
+
+.banner .content
+
+{
+
+    max-width: 990px;
+
+    text-align: center;
+
+}
+
+.banner .content h2
+
+{
+
+    font-size: 5rem;
+
+    color:black;
+
+}
+
+.banner .content p
+
+{
+
+    font-size: 1em;
+
+    color: black;
+
+}
+
+.btn
+
+{
+
+    font-size: 1rem;
+
+    color: rgb(248, 0, 0);
+
+    background: #111;
+
+    display: inline-block;
+
+    padding: 10px 30px;
+
+    margin-top: 20px;
+
+    text-transform: uppercase;
+
+    text-decoration:none ;
+
+    letter-spacing: 2px;
+
+    transition: 0.2;
+
+}
+
+.btn:hover
+
+{
+
+    letter-spacing: 6px;
+
+}
+
+header
+
+{
+
+    position:fixed;
+
+    top: 0;
+
+    left:0;
+
+    width: 100%;
+
+    padding: 40px 100px;
+
+    z-index: 10000;
+
+    display:flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    transition: 0.5s;
+
+}
+
+header .sticky
+
+{
+
+    background: red;
+
+    padding: 40px 100px;
+
+    box-shadow: 0px 5px 20px rgb(8, 6, 2);
+
+ 
+
+}
+
+.logo
+{
+    height: 50px;
+    padding: 2px 10px;
+
+}
+
+header .sticky .logo
+
+{
+
+    color: red ;
+
+}
+
+header .logo span
+
+{
+
+    color: red;
+
+}
+
+header .navigation
+
+{
+
+    position:relative;
+
+    display: flex;
+
+}
+
+header .navigation li
+
+{
+
+    list-style: none;
+
+    margin-left: 30px;
+
+}
+
+header .navigation li a
+
+{
+
+    text-decoration: none;
+
+    color: rgb(0, 0, 0);
+
+    font-weight: 300;
+
+ 
+
+}
+
+header .sticky .navigation li a
+
+{
+
+    color: rgb(255, 255, 255);
+
+}
+
+header .navigation li a:hover
+
+{
+
+    color: red;
+
+}
+
+.imgBx
+
+{
+    position: static;
+    padding: 10px;
+
+}
+
+.row
+
+{
+
+    position: relative;
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+.row .co150
+
+{
+
+    position: relative;
+
+    width: 48%;
+
+}
+
+.titleText
+
+{
+
+    color: black;
+
+    font-size: 2em;
+
+    font-size: 300 ;
+
+}
+
+.titleText span
+
+{
+
+color: black;
+
+font-weight: 700;
+
+font-size: 1.5em;
+
+}
+
+.row .co150 .imgBx
+
+{
+
+    width: 100%;
+
+    position:absolute;
+
+/* min-height: 300px;*/
+
+    height: 300px ;
+
+}
+
+.row .co150 .imgBx img
+
+{
+
+    position:relative;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height:100%;
+
+    object-fit: cover;
+
+}
+
+.types
+
+{
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-direction:column ;
+
+}
+
+.types .content
+
+{
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-direction: row-reverse;
+
+    flex-wrap: wrap;
+
+    margin-top: 40px;
+
+ 
+
+}
+
+.types .content .box
+
+{
+
+    width: 340px;
+
+    margin: 20px;
+
+    border: 15px solid red;
+
+    box-shadow: 0 5px 35px black);
+
+}
+
+.types .content .box .imgBx
+
+{
+
+    position: relative;
+
+    width: 100%;
+
+    height: 300px;
+
+ 
+
+}
+
+.types .content .box .imgBx img
+
+{
+
+    position:absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+}
+
+.types .content .box  .text
+
+{
+
+    padding: 15px 0 5px;
+
+}
+
+.types .content .box  .text  h3
+
+{
+
+    font-weight: 400;
+
+    color: red;
+
+ 
+
+}
+
+.Characters
+
+{
+
+    background: url(team.jpg);
+
+    background-size: cover;
+
+}
+
+.white.titleText
+
+.white p
+
+{
+
+color: red;
+
+}
+
+.Characters .content
+
+{
+
+display: flex;
+
+justify-content: center;
+
+flex-wrap: wrap;
+
+flex-direction: row;
+
+margin-top: 40px;
+
+}
+
+.Characters .content .box
+
+{
+
+    width: 340px;
+
+    margin: 20px;
+
+    padding: 40px;
+
+    background: red;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-direction: column;
+
+ 
+
+}
+
+.Characters .content .box .text
+
+{
+
+    text-align: center;
+
+}
+
+.Characters
